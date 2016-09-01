@@ -5,4 +5,3 @@ RUN chown -R mysql:mysql /var/run/mysqld \
     && apt-get install -y pv
 
 CMD ["tail -f /var/log/syslog"]
-
